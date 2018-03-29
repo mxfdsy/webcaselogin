@@ -38,5 +38,24 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://F:/IdeaCode/localrepositorty/jar包/MvnRepo/c3p0/c3p0/0.9.1.2/c3p0-0.9.1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://F:/IdeaCode/localrepositorty/jar包/MvnRepo/mysql/mysql-connector-java/5.1.34/mysql-connector-java-5.1.34.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="apache-tomcat-9.0" level="project" />
   </component>
 </module>
