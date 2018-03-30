@@ -13,9 +13,10 @@ import java.sql.SQLException;
  */
 public class DButils {
     private static String driver = "com.mysql.jdbc.driver";
-    private static String url = "jdbc:mysql://localhost:3306/hello";
+    private static String url = "jdbc:mysql://localhost:3306/test";
     private static String user = "root";
-    private static String password = "cww963559210";
+    private static String password = "cww123456";
+
 
     public static Connection getConn() throws SQLException {
         ComboPooledDataSource dataSource = new ComboPooledDataSource();

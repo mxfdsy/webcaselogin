@@ -8,6 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.sql.SQLException;
 
 /**
  *
@@ -20,7 +21,12 @@ public class loginServlet extends HttpServlet {
         String password = request.getParameter("pwd");
         //创建longinService对象校验账号和密码的合法性
         LongInService longin = new LongInService();
-        Teacher teacher = longin.chaeakLongin("username", "password");
+        Teacher teacher = null;
+        try {
+            teacher = longin.chaeakLongin("username", "password");
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
         if (teacher != null) {
             //如果验证通过则转发请求
             request.getRequestDispatcher("WEB-INF/view/StudentList.jsp").forward(request,response);
