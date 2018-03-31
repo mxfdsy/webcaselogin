@@ -23,7 +23,7 @@ public class loginServlet extends HttpServlet {
         LongInService longin = new LongInService();
         Teacher teacher = null;
         try {
-            teacher = longin.chaeakLongin("username", "password");
+            teacher = longin.chaeakLongin(username, password);
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -33,10 +33,9 @@ public class loginServlet extends HttpServlet {
             //为teacher设置session信息
             request.getSession().setAttribute("user",teacher);
         }else{
-            request.getRequestDispatcher("/login.jsp").forward(request,response);
+            request.getRequestDispatcher("login.jsp").forward(request,response);
         }
     }
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
     }
 }

@@ -12,8 +12,8 @@ import java.sql.SQLException;
  * Created by 没想法的岁月 on 2018/3/29.
  */
 public class DButils {
-    private static String driver = "com.mysql.jdbc.driver";
-    private static String url = "jdbc:mysql://localhost:3306/test";
+    private static String driver = "com.mysql.jdbc.Driver";
+    private static String url = "jdbc:mysql://localhost:3306/education_system";
     private static String user = "root";
     private static String password = "cww123456";
 

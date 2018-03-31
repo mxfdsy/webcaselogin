@@ -41,7 +41,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://F:/IdeaCode/localrepositorty/jar包/MvnRepo/c3p0/c3p0/0.9.1.2/c3p0-0.9.1.2.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/c3p0-0.9.5.2/lib/c3p0-0.9.5.2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -50,12 +50,38 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://F:/IdeaCode/localrepositorty/jar包/MvnRepo/mysql/mysql-connector-java/5.1.34/mysql-connector-java-5.1.34.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/c3p0-0.9.5.2/lib/c3p0-oracle-thin-extras-0.9.5.2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="apache-tomcat-9.0" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Desktop/c3p0-0.9.5.2/lib/mchange-commons-java-0.2.11.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Desktop/mysql-connector-java-5.1.46/mysql-connector-java-5.1.46-bin.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Desktop/mysql-connector-java-5.1.46/mysql-connector-java-5.1.46.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>

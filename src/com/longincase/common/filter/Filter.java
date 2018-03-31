@@ -22,7 +22,7 @@ public class Filter implements javax.servlet.Filter {
         request.setCharacterEncoding(Ecoding);
         response.setContentType("text/html;charset="+ Ecoding);
         chain.doFilter(req, resp);
-        chain.doFilter(req, resp);
+//        chain.doFilter(req, resp);
     }
 
     public void init(FilterConfig config) throws ServletException {
