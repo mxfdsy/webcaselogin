@@ -16,10 +16,10 @@ public class TeacherDao {
     public  Teacher queryTeacher(String username, String password) throws SQLException {
 
         //得到数据库的链接对象
-        Connection conn  = DButils.getConn();
+        Connection connT  = DButils.getConn();
         String sql ="SELECT teacher_name,password FROM teacher_info WHERE teacher_name = '"+username+" ' AND password ='"+password+"'";
         //表示预编译的 SQL 语句的对象。
-        PreparedStatement pstm = conn.prepareStatement(sql);
+        PreparedStatement pstm = connT.prepareStatement(sql);
         //执行的SQL(此 PreparedStatement 对象中执行 SQL 查询，并返回该查询生成的 ResultSet 对象。)
         ResultSet resultSet = pstm.executeQuery();
         Teacher teacher = null;

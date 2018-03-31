@@ -1,6 +1,8 @@
 package com.longincase.login.cintroller;
 
+import com.longincase.login.dao.StudentDao;
 import com.longincase.login.service.LongInService;
+import com.longincase.login.service.Student;
 import com.longincase.login.service.Teacher;
 
 import javax.servlet.ServletException;
@@ -35,6 +37,7 @@ public class loginServlet extends HttpServlet {
         }else{
             request.getRequestDispatcher("login.jsp").forward(request,response);
         }
+
     }
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
     }
